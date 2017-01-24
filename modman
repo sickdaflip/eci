@@ -1,0 +1,4 @@
+app/code/community/Sysgrade/*   app/code/community/Sysgrade/
+app/etc/modules/*.xml   app/etc/modules/
+app/design/adminhtml/default/default/layout/sysgrade/eci.xml    app/design/adminhtml/default/default/layout/sysgrade/eci.xml
+app/locale/de_DE/Sysgrade_Eci.csv   app/locale/de_DE/Sysgrade_Eci.csv
