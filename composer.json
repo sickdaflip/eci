@@ -1,20 +1,32 @@
 {
-  "name": "sickdaflip/eci",
+  "name": "sickdaflip/sysgrade_eci",
   "type": "magento-module",
   "license": "MIT",
-  "description": "Sysgrade eci",
-  "authors":[
+  "description": "Magento Module Sysgrade ECI",
+  "authors": [
     {
-      "name":"SickDaFlip",
-      "email":"philippbreitsprecher@gmail.com"
+      "name": "SickDaFlip",
+      "email": "philippbreitsprecher@gmail.com"
     }
   ],
   "extra": {
     "map": [
-      ["app/code/community/Sysgrade/Eci/", "app/code/community/Sysgrade/Eci/"],
-      ["app/etc/modules/*.xml", "app/etc/modules/"],
-      ["app/design/adminhtml/default/default/layout/sysgrade/eci.xml", "app/design/adminhtml/default/default/layout/sysgrade/eci.xml"],
-      ["app/locale/de_DE/Sysgrade_Eci.csv", "app/locale/de_DE/Sysgrade_Eci.csv"]
+      [
+        "app/code/community/Sysgrade/Eci/",
+        "app/code/community/Sysgrade/Eci/"
+      ],
+      [
+        "app/etc/modules/*.xml",
+        "app/etc/modules/"
+      ],
+      [
+        "app/design/adminhtml/default/default/layout/sysgrade/eci.xml",
+        "app/design/adminhtml/default/default/layout/sysgrade/eci.xml"
+      ],
+      [
+        "app/locale/de_DE/Sysgrade_Eci.csv",
+        "app/locale/de_DE/Sysgrade_Eci.csv"
+      ]
     ]
   }
 }
